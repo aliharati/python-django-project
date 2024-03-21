@@ -1,0 +1,32 @@
+/* comment */
+
+/* more comments */
+/* 
+selected tag{
+    property: value;
+} */
+
+ h1{
+    color: purple;
+ }
+ li{
+    color:  #2a639c;
+ }
+ /* fourth value of rgba is transparancy(between 0-1) */
+ html{
+    background-color: rgba(171, 153, 51, 0.5);
+ }
+
+ div{
+    background: gray;
+    border-color: azure;
+    border-width:5px ;
+    border-style: groove;
+ }
+
+ p{
+    color: white;
+ }
+ span{
+    color: red;
+ }
