@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(246, 246, 246);
+}
+h1{
+    font-family: "Molle", cursive;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+table{
+    margin: auto;
+    margin-top: 50px;
+}
+
+td{
+    padding: 25px;
+    width: 100px;
+    height: 200px;
+    border: rgb(246, 246, 246) 4px solid;
+}
+#one{
+    background-color: rgb(39, 97, 150);
+}
+#two{
+    background-color: rgb(124, 205, 178);
+}
+#three{
+    background-color: rgb(200, 240, 220);
+}
+#four{
+    background-color: rgb(254, 254, 192);
+}
+#five{
+    background-color: rgb(225, 91, 91);
+}
