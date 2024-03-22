@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-family: Arial;
+}
+p{
+    font-family: monospace;
+}
+
+body{
+    font-size: 20px;
+}
+
+/* em represents the body default size so 2em would be 
+twice the size of default */
+#two{
+    margin: 100px;
+    padding: 50px;
+    border: 10px solid purple;
+    font-weight: lighter;
+    font-style: normal;
+    font-family: "Rubik Beastly", system-ui;;
+    font-size: 1em;
+}
+/* 
+italic and bold */
+
+p{
+    font-style: italic;
+    font-weight: bold;
+}
