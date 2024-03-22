@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(7, 25, 49);
+    color: white;
+    text-align: center;
+    font-family: "Truculenta", sans-serif;
+    margin: 0;
+}
+.mainText{
+    margin: auto;
+    width: 60%;
+    margin-top: 50px;
+}
+div{
+    
+    border: 70px solid rgb(28, 207, 207);
+    border-top: 0px
+}
+form{
+    font-size: 1.5em;
+}
+form h2{
+    margin-top: 50px;
+}
+form p{
+    margin: 0;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+#button{
+    margin: 20px 20px 20px 20px;
+    height: 70px;
+    width: 120px;
+    background-color: rgb(189, 94, 16);
+    border-radius: 20px;
+    color: white;
+    font-size: .7em;
+}
