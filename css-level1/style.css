@@ -1,5 +1,5 @@
 body{
-    background: #7aebe9;
+    background: #a9ebea;
 
 }
 h1{
@@ -9,13 +9,14 @@ h2{
     color: purple;
 }
 input{
-    border: 2px orangered solid;
+    border: 2px rgb(159, 48, 0) solid;
 }
 p{
-    background: yellow;
+    background: rgb(250, 250, 185);
 }
 a{
     color: red;
+    
 }
 
 #itemone{
@@ -26,12 +27,17 @@ a{
     border-width: 5px;
     border-color: gray;
     border-style:solid;
+    width: 800px;
+    height: 400px;
 }
 
 .exit{
     background: blue;
-    border: 5px yellow dashed;
+    border: 4px yellow dashed;
 }
 .list{
     background-color: transparent;
+}
+a:visited{
+    color: blue;
 }
