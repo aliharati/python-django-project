@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Here are your users:</h1>
+    <div>
+            {% if users %}
+        <ol>
+            {% for user in users %}
+            <li><p>UserInfo</p>
+                <ul>
+                    <li>First Name: {{user.firstName}}</li>
+                    <li>Last Name: {{user.lastName}}</li>
+                    <li>Email: {{user.email}}</li>
+                </ul>
+
+            </li>
+            {% endfor%}
+        </ol>
+        {% else %}
+        <h2>No entries in Users</h2>
+        {% endif %}
+    </div>
+    
+</body>
+</html>
