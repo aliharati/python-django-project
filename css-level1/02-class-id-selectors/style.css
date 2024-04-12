@@ -1,0 +1,17 @@
+.pink{
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgb(245, 168, 168);
+}
+#n2{
+    font-size: 36px;
+    color: rgb(19, 68, 228)
+}
+.pink.cooler{
+    font-size: 24px;
+}
+
+#n4{
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(100, 251, 127);
+}
