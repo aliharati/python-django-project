@@ -13,7 +13,24 @@ the .alternate class, so that it matches the visual width of the first box.
     height: 150px;
   }
   
-  .alternate {
+.alternate {
     box-sizing: border-box;
-    width : 390px
+    width: 390;
+    margin: auto;
+}
+
+.box2 {
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+    
   }
+.box3 span {
+    background-color: pink;
+    border: 5px solid black;
+    padding: 1em;
+    display: inline-block
+}
