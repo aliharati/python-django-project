@@ -1,0 +1,19 @@
+/* Task 1
+In this task, there are two boxes below, one is using 
+the standard box model, the other the alternate box model.
+Change the width of the second box by adding declarations to 
+the .alternate class, so that it matches the visual width of the first box.
+ */
+.box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+  }
+  
+  .alternate {
+    box-sizing: border-box;
+    width : 390px
+  }
