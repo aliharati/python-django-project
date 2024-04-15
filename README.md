@@ -1,5 +1,5 @@
 # python-django-project
-An educational project going through the learning progression of Full-stack development starting from html, css, Js in frontend with JQuery to backend with Python and Django. 
+An educational project going through the learning progression of Full-stack development starting from HTML, CSS, JavaScript in frontend with Bootstrap framework and JQuery library to backend implementation with Python and Django framework. 
 
 # content
 
